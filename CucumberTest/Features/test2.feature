@@ -1,5 +1,6 @@
 Feature: Verify Google Page
 
+  @sanity
   Scenario Outline: Search with seleniumhq
     Given I am in Google page
     When I enter "<Search Value>" in the searchbox
